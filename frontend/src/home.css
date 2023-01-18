@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lobster&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lobster&family=Rubik+Bubbles&family=Sevillana&display=swap');
+
+.Homepage {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(./bg3.png);
+    background-position: center;
+    background-size: cover;
+    text-decoration-color: white;
+}
+
+.login {
+    background: url(./bg3.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
